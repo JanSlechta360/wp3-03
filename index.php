@@ -16,7 +16,7 @@
      {
          $apal -= 10; 
          echo 'Na Apalu zbývá' . $apal . 'surovin';?><br><?php
-         for ($i = 0; $i= < 6; $i++) { 
+         for ($i = 0; $i =< 6; $i++) { 
              $damage = rand(0,5);
              $hp = $hp - $damage;
              echo 'Loďi zbyvá' . $hp . 'životů';?><br><?php  
