@@ -16,7 +16,7 @@
      {
          $apal -= 10; 
          echo 'Na Apalu zbývá' . $apal . 'surovin';?><br><?php
-         for ($i = 0; $i =< 6; $i++) { 
+         for ($i = 0; $i < 6; $i++) { 
              $damage = rand(0,5);
              $hp = $hp - $damage;
              echo 'Loďi zbyvá' . $hp . 'životů';?><br><?php  
@@ -25,19 +25,12 @@
                  break;
             }
          }
-         $botak +=10;
-         echo 'V Botaku se nachází ve skladu' . $botak . 'surovin';?><br><?php 
-         if ($botak = 100) {
+         $botak += 10 ;
+         echo 'V Botaku se nachází ve skladu ' . $botak . ' surovin';?><br><?php 
+         if ($botak > 99) {
              echo 'Všechny suroviny jsou ve skladu';?><br><?php 
-             break;
-     }
-      
-     
+             break;}
+     }     
      ?>
-
- 
-
-
-
 </body>
 </html>
